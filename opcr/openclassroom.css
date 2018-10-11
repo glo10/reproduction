@@ -1,0 +1,120 @@
+body
+{
+	margin:0px;
+	padding:0px;
+}
+
+header{
+	margin-top:0px;
+}
+
+li{
+	list-style-type:none;
+ }
+ 
+header > p{
+	margin-top:0px;
+	background-color:rgb(76,136,161);
+	height:40px;
+	text-align:center;
+	color:white;
+}
+
+nav figure img[src='WebContent/images/logo.jpg']{
+	margin-left:20px;
+}
+
+ nav ul li{
+ 	display:inline;
+ 	margin:0px 10px;
+ }
+ 
+ nav{
+	border-bottom:2px inset lightgrey;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+ }
+ 
+ 
+ section h1,
+ section h3,
+ section#section3 div.fleximage3 p
+ {
+ 	text-align:center;
+ }
+ 
+ section button{
+ 	position:relative;
+ 	left:45%;
+ 	margin-bottom:20px;
+ 	background-color:rgb(245,105,0);
+ 	color:white;
+ 	padding:5px;
+ }
+ 
+ section#section1 div.fleximage1,
+ section#section2 div.fleximage2,
+ section#section3 div.fleximage3,
+ section#section4 div.fleximage4
+ {
+	display:flex;
+	justify-content:center;
+ }
+ 
+ section#section1 div.fleximage1 figure{
+ margin:0px 5px;
+ }
+ 
+
+ section#section2 div.fleximage2{
+ background-color:rgb(246,246,246);
+ }
+
+  section#section3 div.fleximage3 div{
+ margin:20px 50px;
+ }
+ 
+   section#section3 div.fleximage3 img{
+   height:100px;
+   
+   }
+ section#section4{
+ 	background-color:rgba(212,212,212,0.6);
+ }
+ 
+ section#section5 p#temoin1{
+ 	border:1px outset lightgrey;
+ 	width:960px;
+ 	height:200px;
+ 	background-color:rgba(167,167,167,0.2);
+ 	margin-left:150px;
+ 	padding:50px 5px;
+ 
+ }
+.colorOrange{
+	 color:rgb(245,105,0);
+ }
+ 
+ footer{
+ 	background-color:rgb(55,55,54);
+	color:grey;
+	}
+
+footer div#footer strong{
+	color:white;
+}
+
+footer div#footer{
+	display:flex;
+	justify-content:space-around;
+
+}
+
+
+footer p#right{
+	position:relative;
+	left:80%;
+	border-top:2px solid white;
+}
